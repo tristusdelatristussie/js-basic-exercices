@@ -321,7 +321,7 @@ function addition(a, b){
 
   }
 
-Ob.age = "55"
+Ob.age = 55
 Ob.prenom = "MonPrenom"
 
 
