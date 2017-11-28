@@ -107,9 +107,9 @@ function addition(a, b){
   // Ecrire une fonction qui reçoit une chaîne de caractères, et qui renvoie la position 
   // de la première occurence de la lettre 'e' dans cette chaîne
   
-  str = "string"
   
   function b(str){
+    
 	return str.indexOf("e")
 	
   }
@@ -146,12 +146,14 @@ function addition(a, b){
   
 	
   function e(str){
-	
+
+	s2=""
 	for( i=1; i < str.length; i++){
+    
 	  s2 += str.charAt(i) 
 	}
-  
-	  return str.charAT(0).toUpperCase()  + s2
+  a = str.charAt(0).toUpperCase()
+	  return a + s2
   
   
 	}
