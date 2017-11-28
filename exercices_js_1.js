@@ -130,9 +130,12 @@ function addition(a, b){
   
   
   function d(str){
-	
+  
+    tab = []
 	for(i = 0; i < str.length ; i++){
-	  tab [i] =  str.charAt(i);
+    tab [i] =  str.charAt(i);
+    console.log(tab[i])
+    return tab
   
 	}
 	
