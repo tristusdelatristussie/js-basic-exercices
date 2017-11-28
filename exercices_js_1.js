@@ -312,6 +312,20 @@ function addition(a, b){
   // - rajouter dynamiquement une propriété âge
   // - modifier dynamiquement le prénom de cet objet
   
+
+    
+
+  function Ob () {
+    this.nom = "";
+    this.prenom = "";
+
+  }
+
+Ob.age = "55"
+Ob.prenom = "MonPrenom"
+
+
+
   // ----
   // Ecrire une fonction qui reçoit un objet, et qui renvoie la longueur de cet objet 
   var getObjLength = function(obj) {
