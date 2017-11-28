@@ -69,7 +69,7 @@ function addition(a, b){
   // Cette fonction doit renvoyer un booléen
   var isDivisibleBy5 = function(x) {
 	  // WRITE YOUR CODE HERE
-	if(x/5>=0){
+	if(x%5==0){
 	  return true;
 	}
 	return false;
@@ -80,7 +80,7 @@ function addition(a, b){
   // Cette fonction doit renvoyer un booléen
   function isDivisibleByN(x, n) {
 	  // WRITE YOUR CODE HERE
-	if(x/n>=0){
+	if(x%n==0){
 	  return true;
 	}
 	return false;
