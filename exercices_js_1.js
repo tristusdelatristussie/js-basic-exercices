@@ -238,7 +238,7 @@ function addition(a, b){
   
 
   function tabVide(){
-  var numTab3 = [];
+  numTab3 = [];
   
   for( i =0; i < 10; i ++){
 	numTab3 += prompt("Entrez qqe chose");
@@ -274,7 +274,7 @@ function addition(a, b){
 	console.log(tab[i])
 	}
 	for(i=0; i < tab.length; i++){
-	  if(tab[i]%2 == 0){
+	  if(! tab[i]%2 == 0){
 		console.log("Retour")
 		console.log(tab[i])
 	  }
@@ -319,10 +319,9 @@ function addition(a, b){
   
 
     
-
-  function Ob () {
-    this.nom = "";
-    this.prenom = "";
+Ob = {
+    nom : "",
+    prenom : ""
 
   }
 
@@ -333,11 +332,16 @@ Ob.prenom = "MonPrenom"
 
   // ----
   // Ecrire une fonction qui reçoit un objet, et qui renvoie la longueur de cet objet 
-  var getObjLength = function(obj) {
+  var getObjL = function(obj) {
 
-	return this.getObjLength;
+	return Object.keys(obj).length;
 	  // WRITE YOUR CODE HERE
   };
+
+
+console.log(getObjL(Ob))
+
+
   // Tester cette fonction avec un objet de votre choix que vous aurez écrit
   
   // ----
